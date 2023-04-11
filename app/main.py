@@ -165,21 +165,6 @@ def load_image():
             f.write(image_data)
         return image_data
 
-def add_bg_from_url():
-    st.markdown(
-         f"""
-         <style>
-         .stApp {{
-             background-image: url("https://images.unsplash.com/photo-1542281286-9e0a16bb7366");
-             background-attachment: fixed;
-             background-size: cover
-         }}
-         </style>
-         """,
-         unsafe_allow_html=True
-     )
-
-# add_bg_from_url() 
 
 def main():
     page_bg_img = '''
@@ -191,7 +176,6 @@ def main():
     </style>
     '''
     st.markdown(page_bg_img, unsafe_allow_html=True)
-#     add_bg_from_url() 
     
     st.header('TARP Final Review')
     st.title('MRI Brain Tumor Detection')
