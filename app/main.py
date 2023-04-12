@@ -97,7 +97,7 @@ st.set_page_config(
     page_icon=":brain:",
     initial_sidebar_state="expanded",
     menu_items={
-        'About': "TARP Final Review - MRI Brain Tumor Detection by Aryan Arora, Harsh Deshwal, Kanishka Ghosh",
+        'About': "EDA Final Review - MRI Brain Tumor Detection by Harsh Deswal, Harsh Nishad, Harshvardhan",
 
     }
 )
@@ -193,13 +193,13 @@ def main():
     st.markdown(page_bg_img, unsafe_allow_html=True)
 #     add_bg_from_url() 
 
-    st.header('TARP Final Review')
+    st.header('EDA Final Review')
     st.title('MRI Brain Tumor Detection')
     st.subheader('Presented by')
     st.markdown('''
-    - Harsh Deshwal 20BPS1145
-    - Aryan Arora 20BPS1144
-    - Kanishka Ghosh 20BPS1125
+    - Harsh Deswal 20BPS1145
+    - Harsh Nishad 20BPS1076
+    - Harshvardhan 20BPS1079
     ''')
     st.header('Upload the scan to test')
     image_data = load_image()
